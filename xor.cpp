@@ -4,4 +4,10 @@ void xorCipherPtr(char* text, char key) {
     }
 }
 
+void encriptarXOR(char* text, char key) {
+    xorCipherPtr(text, key);
+}
 
+void desencriptarXOR(char* text, char key) {
+    xorCipherPtr(text, key);
+}
